@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="src/script.js"></script>
+    <title>Localstorage</title>
+</head>
+<body>    
+    <div class="container">
+      <form action="" class="form" id="form">
+        <div class="field">
+            <input type="text" class="input_field input" name = "fName" placeholder="First Name" value="-first-name-">
+        </div>
+        <div class="field">
+            <input type="text" class="input_field input" name="lName" placeholder="Last Name" value="-second-name-">
+        </div>
+        <div class="field">
+            <input type="number" class="input_field input age_input" name="age" placeholder="Age" value="42">
+        </div>
+        <div class="field">
+            <input type="text" class="input_field input email_input" name="email" placeholder="Email" value="sdf@sdf.sdf">
+        </div>
+        <div class="field">
+            <input type="password" class="field_password" name="pass" placeholder="Password" value="123">
+        </div>
+        <div class="field">
+            <input type="password" class="confirm_password input" name="confirm_pass" placeholder="Confirm Password" value="123">
+        </div>
+        <div class="field">
+            <input  type="radio" class="input_field" value="male" id="male_check" name="gender" >
+            <label class="input_label" for="male_check">Male</label>
+        </div>
+        <div class="field">
+            <input checked type="radio" class="input_field" value="femaaaaale" id="female_check" name="gender">
+            <label class="input_label" for="female_check">Female</label>
+        </div>
+        <button class="btn submit" type="submit">
+            Submit
+        </button>
+        <button class="btn reset" type="reset">
+            Reset
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
