@@ -25,6 +25,7 @@ button {
 
 
 
-input.error{
-  border-color: red;
+.error {
+  border: solid 2px red;
+  border-radius: 15px;
 }

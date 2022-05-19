@@ -10,33 +10,56 @@
 </head>
 <body>    
     <div class="container">
-      <form action="" class="form" id="form">
+      <form name="main" action="" class="form" id="form">
         <div class="field">
-            <input type="text" class="input_field input" name = "fName" placeholder="First Name" value="-first-name-">
+            <input type="text" class="input_field input" name = "fName" placeholder="First Name" value="">
+        </div>
+        <div class="field ">
+            <input type="text" class="input_field input" name="lName" placeholder="Last Name" >
         </div>
         <div class="field">
-            <input type="text" class="input_field input" name="lName" placeholder="Last Name" value="-second-name-">
+            <input type="number" class="input_field input age_input" name="age" placeholder="Age" >
         </div>
         <div class="field">
-            <input type="number" class="input_field input age_input" name="age" placeholder="Age" value="42">
+            <input type="text" class="input_field input email_input" name="email" placeholder="Email" >
         </div>
         <div class="field">
-            <input type="text" class="input_field input email_input" name="email" placeholder="Email" value="sdf@sdf.sdf">
+            <input type="password" class="field_password input" name="pass" placeholder="Password" >
         </div>
         <div class="field">
-            <input type="password" class="field_password" name="pass" placeholder="Password" value="123">
+            <input type="password" class="confirm_password input" name="confirm_pass" placeholder="Confirm Password" >
+        </div>
+        <!-- <div class="field">
+            <input  type="radio" class="input_field" value="Man" name="gender" >
+            <label class="input_label" for="male_check">Man</label>
         </div>
         <div class="field">
-            <input type="password" class="confirm_password input" name="confirm_pass" placeholder="Confirm Password" value="123">
+            <input  type="radio" class="input_field" value="Woman" name="gender">
+            <label class="input_label" for="female_check">Woman</label>
+        </div> -->
+
+
+        <div class="field ">
+            <input  type="radio" class="input_field" value="Man" name="gender" >
+            <label class="input_label" for="male_check">Man</label>
+        
+            <input  type="radio" class="input_field" value="Woman" name="gender">
+            <label class="input_label" for="female_check">Woman</label>
         </div>
-        <div class="field">
-            <input  type="radio" class="input_field" value="male" id="male_check" name="gender" >
-            <label class="input_label" for="male_check">Male</label>
-        </div>
-        <div class="field">
-            <input checked type="radio" class="input_field" value="femaaaaale" id="female_check" name="gender">
-            <label class="input_label" for="female_check">Female</label>
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <button class="btn submit" type="submit">
             Submit
         </button>
